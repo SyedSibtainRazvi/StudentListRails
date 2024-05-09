@@ -7,3 +7,10 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Student.create!(name: "John Doe", age: 20)
+Student.create!(name: "Jane Doe", age: 22)
+Student.create!(name: "John Smith", age: 21)
+Student.create!(name: "Jane Smith", age: 23)
+Student.create!(name: "John Johnson", age: 24)
+Student.create!(name: "Jane Johnson", age: 25)
